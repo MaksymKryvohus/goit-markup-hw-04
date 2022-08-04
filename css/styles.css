@@ -118,12 +118,24 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.auth-link::before {
+  content: '';
+}
 /*----------------------- hero -------------------------*/
 .hero {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #2f303a;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1600px;
+  margin: auto;
 }
 
 .hero-title {
@@ -359,4 +371,14 @@ body {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: 0;
+}
+/* -----------------clients---------------------- */
+.clients-title {
+  margin-bottom: 50px;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
