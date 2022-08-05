@@ -118,8 +118,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.auth-link::before {
-  content: '';
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 /*----------------------- hero -------------------------*/
 .hero {
@@ -254,6 +255,24 @@ body {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+.team-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.team-soc-item {
+  padding: 12px;
+}
+.team-soc-link {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+}
+.team-soc-icon {
+  fill: #afb1b8;
 }
 /*----------------------- footer -------------------------*/
 .footer {
@@ -381,4 +400,31 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+  margin: 0%;
+  padding: 0%;
+}
+.clients-item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+.clients-link {
+  display: flex;
+  padding: 16px 32px;
+  align-items: center;
+}
+.clients-icon {
+  fill: #afb1b8;
+}
+.clients-link:hover,
+.clients-link:focus {
+  color: currentColor;
 }
