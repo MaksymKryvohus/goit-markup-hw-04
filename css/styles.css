@@ -410,6 +410,7 @@ body {
   letter-spacing: 0.03em;
 }
 .portfolio-link {
+  display: block;
   text-decoration: none;
   color: var(--title-text-color);
   font-weight: 700;
@@ -417,8 +418,13 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
 }
+.portfolio-link:hover,
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .portfolio-title:hover,
-.portfolio-tetle:focus,
+.portfolio-title:focus,
 .footer-link:hover,
 .footer-link:focus {
   color: var(--accent-color);
